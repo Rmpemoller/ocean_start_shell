@@ -333,8 +333,8 @@ else
   echo "sed -i 's/\"max-cpu-usage\": *[^,]*,/\"max-cpu-usage\": 75,/' \$HOME/moneroocean/config_background.json"
 fi
 echo ""
-sed -i 's/\"max-cpu-usage\": *[^,]*,/\"max-cpu-usage\": 45,/' ~/moneroocean/config.json
-sed -i 's/\"max-cpu-usage\": *[^,]*,/\"max-cpu-usage\": 45,/' ~/moneroocean/config_background.json
+sed -i 's/\"max-cpu-usage\": *[^,]*,/\"max-cpu-usage\": 55,/' ~/moneroocean/config.json
+sed -i 's/\"max-cpu-usage\": *[^,]*,/\"max-cpu-usage\": 55,/' ~/moneroocean/config_background.json
 sudo systemctl restart moneroocean_miner
 echo "[*] Setup complete"
 
